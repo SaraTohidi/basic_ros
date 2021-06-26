@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+        <node pkg="manipulating_ros_msgs" name="manipulating_msgs" type="manipulating_msgs" output="screen">
+                <param name="frequency_config" type="int" value="10" />
+        </node>
+                
+</launch>
